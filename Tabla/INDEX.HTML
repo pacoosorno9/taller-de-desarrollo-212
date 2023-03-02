@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=8.0">
+    <title>Tabla en html</title>
+    <Style>
+        table, th, td{
+            border: 1px solid black;
+        }
+
+        th, td{
+            padding: 5.6px;
+        }
+    </Style>
+</head>
+<body>
+    <table >
+        <tr>
+            <th rowspan="3">Day</th>
+            <th colspan="4">Seminar</th>
+        </tr>
+
+        <tr>
+            <th colspan="2">Schedule</th>
+            <th rowspan="2" colspan="2">Topic</th>
+        </tr>
+
+        <tr>
+            <th>Begin</th>
+            <th>End</th>
+        </tr>
+
+        <tr>
+            <td rowspan="2">Monday</td>
+            <td rowspan="2">8:00 A.M.</td>
+            <td rowspan="2">5:00 P.M.</td>
+            <td>Introduction XML</td>
+        </tr>
+
+        <tr>
+            <td>Validity: DTD and Relax NG</td>
+        </tr>
+
+        <tr>
+            <td rowspan="4"> Tuesday</td>
+            <td>8:00 A.M.</td>
+            <td>11:00 A.M.</td>
+            <td rowspan="1.5">XPath</td>
+        </tr>
+
+        <tr>
+            <td rowspan="2">11:00 A.M.</td>
+            <td rowspan="2">2:00 P.M</td>
+        </tr>
+
+        <tr>
+            <td rowspan="2">XSL Transformations</td>
+        </tr>
+
+        <tr>
+            <td>2:00 P.M.</td>
+            <td>5:00 P.M.</td>
+        </tr>
+
+        <tr>
+            <td>Wendnsday</td>
+            <td>8:00 A.M.</td>
+            <td>12:00 P.M.</td>
+            <td>XSL Formatting Objects</td>
+        </tr>
+    </table>
+</body>
+</html>
