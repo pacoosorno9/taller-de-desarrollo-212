@@ -44,6 +44,56 @@
         <br><br><br>
         <input type="submit" value="Enviar">
     </fieldset>
-</form>    
+    <select name="Paises" id="piases">
+        <option value="1">EU</option>
+        <option value="2">Canada</option>
+        <option value="3">Japon</option>
+        <option value="4">Colombia</option>
+        <option value="5">Cuba</option>
+        <option value="6">Guatemala</option>
+        <option value="7">Peru</option>
+    </select>
+</form>
+<form name="formulario1">
+    <label for="Usuario">Usuario</label>
+    <required input type="text" name="Usuario">
+    <label for="Password">Contraseña</label>
+    <required input type="password" name="Password">
+    <input type="submit" name="Enviar">
+</form> 
+<form name="forma1">
+    <label for="color">Selecciona un color</label>
+    <input type="color" name="color">
+    <label for="nacimiento">Fecha de nacimiento:</label>
+    <input type="date" name="nac">
+
+    <p><label for="Entrada">Entrada</label>
+    <input type="datetime-local" name="Entrada">
+    </p>
+    <p>
+        <label for="archivo">Ingresa una foto</label>
+        <input type="file" name="archivo" id="archivo">
+    </p>
+    <p>
+        <label for="edad">Ingresa tu edad</label>
+        <input type="numbre" name="edad" id="edad" placeholder="10" value="10">
+    </p>
+    <p>
+        <label for="volumen">Volumen entrte 0 y 100</label>
+        <input type="range" name="volumen" id="volumen" min="0" max="100">
+    </p>
+    <p>
+        <label for="hora">Hora</label>
+        <input type="week" name="semana" id="semana">
+    </p>
+    <p>
+        <label for="telefono">telefono</label>
+        <input type="tel" name="celular" id="celular"
+        pattern="[0-9]{3} [0-9]{3}-[0-9]{4}" 
+        placeholder="Ingresa un numero de telefono">
+    </p>
+    <input type="submit" name="enviar" id="enviar">
+    </form>  
+
 </body>
 </html>
