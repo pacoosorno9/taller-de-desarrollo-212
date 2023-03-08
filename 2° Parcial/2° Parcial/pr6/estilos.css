@@ -1,0 +1,53 @@
+p {
+    color: red;
+    text-align: center;
+}
+
+#para1 {
+    font-size: 40px;
+}
+
+.seleccionado {
+    color: green;
+    font-size: 30px;
+    text-align: center;
+    width: 100;
+    opacity: 0.5;
+} 
+
+.titulo {
+    font-size: 100px;
+}
+
+h1,p {
+    background-color: cyan;
+}
+
+div > p {
+    background-color: yellow;
+    border: 10px solid purple;
+    margin-bottom: 300px;
+}
+
+p ~ ul {
+    background-color: black;
+    color: white;
+}
+
+/* unvisted link */
+a:link {
+    color: #9c02bb;
+    padding: 30px;
+}
+/*visted link */
+a:visited {
+    color: #000;
+}
+/* mouse over link */
+a:hover {
+    background-color: #FF00FF;
+}
+/* selected link */
+a:active {
+    color: #0000FF;
+}
