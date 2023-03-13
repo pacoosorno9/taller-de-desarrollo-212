@@ -37,7 +37,9 @@ p ~ ul {
 /* unvisted link */
 a:link {
     color: #9c02bb;
+    background-color: #870107;
     padding: 30px;
+    text-decoration: none;
 }
 /*visted link */
 a:visited {
@@ -46,6 +48,7 @@ a:visited {
 /* mouse over link */
 a:hover {
     background-color: #FF00FF;
+    font-size: 20px;
 }
 /* selected link */
 a:active {
